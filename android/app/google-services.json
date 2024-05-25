@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "337172269892",
+    "project_id": "untuktesflutter",
+    "storage_bucket": "untuktesflutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337172269892:android:fd1e3fb47ace6be9d36511",
+        "android_client_info": {
+          "package_name": "com.example.untuktesflutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2l4X7pfqbtYTE4Mz9AXUhFTp9k0Kh_EQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337172269892:android:71a01b718b59b88ad36511",
+        "android_client_info": {
+          "package_name": "com.khai.tes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2l4X7pfqbtYTE4Mz9AXUhFTp9k0Kh_EQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
