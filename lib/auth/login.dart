@@ -14,7 +14,7 @@ class LoginScreen extends StatelessWidget {
             SharedPreferences preferences =
                 await SharedPreferences.getInstance();
             await preferences.setBool('loginShown', true);
-            Navigator.pushReplacementNamed(context, 'homepage');
+            Navigator.pushReplacementNamed(context, 'bottomnavbar');
           },
           child: const Text('Login'),
         ),

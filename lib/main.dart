@@ -95,13 +95,13 @@ class _MyAppState extends State<MyApp> {
           } else if (!loginShown) {
             initialRoute = 'login';
           } else {
-            initialRoute = 'homepage';
+            initialRoute = 'bottomnavbar';
           }
           // Mengembalikan MaterialApp dengan rute yang sesuai
           return MaterialApp(
             initialRoute: initialRoute,
             routes: {
-              'homepage': (context) => const HomeScreen(),
+              'bottomnavbar': (context) => const BottomNavBar(),
               'splashscreen': (context) => const SplashScreen(),
               'onboarding': (context) => const OnboardingScreen(),
               'login': (context) => const LoginScreen(),
